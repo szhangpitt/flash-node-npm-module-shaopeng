@@ -1,0 +1,26 @@
+{
+  "name": "flash-node-npm-module-shaopeng",
+  "version": "0.0.1",
+  "description": "flash node tutotial npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szhangpitt/flash-node-npm-module-shaopeng.git"
+  },
+  "keywords": [
+    "flash",
+    "node",
+    "tutorial",
+    "npm",
+    "module"
+  ],
+  "author": "Shaopeng Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szhangpitt/flash-node-npm-module-shaopeng/issues"
+  },
+  "homepage": "https://github.com/szhangpitt/flash-node-npm-module-shaopeng#readme"
+}
