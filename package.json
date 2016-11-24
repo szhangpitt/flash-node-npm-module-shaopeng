@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/szhangpitt/flash-node-npm-module-shaopeng/issues"
   },
-  "homepage": "https://github.com/szhangpitt/flash-node-npm-module-shaopeng#readme"
+  "homepage": "https://github.com/szhangpitt/flash-node-npm-module-shaopeng#readme",
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
 }
