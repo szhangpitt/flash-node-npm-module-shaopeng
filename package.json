@@ -1,6 +1,6 @@
 {
   "name": "flash-node-npm-module-shaopeng",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "flash node tutotial npm module",
   "main": "index.js",
   "scripts": {
