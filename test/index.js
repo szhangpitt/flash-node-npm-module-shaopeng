@@ -21,8 +21,16 @@ describe('addFn', function () {
     })
 
     describe('input/output', function () {
-        it('input non-number --> output NaN', function () {
-            assert.strictEqual(addFn('a')('b'), NaN)
+        it('input non-number --> output null', function () {
+            assert.strictEqual(addFn(1)('b'), null)
+        })
+    })
+
+    describe('pure number adder', function () {
+        it('addFn(non-number) throws Error', function () {
+            var adderWithNonNumber = addFn.bind(null, 'abc')
+            assert.throws(adderWithNonNumber, Error)
+            assert.throws(adderWithNonNumber, /must be number/)
         })
     })
 })
