@@ -4,7 +4,8 @@
   "description": "flash node tutotial npm module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/index.js"
+    "test": "mocha test/index.js",
+    "doc": "echo '# flash node tutorial - npm module' > README.md"
   },
   "repository": {
     "type": "git",
